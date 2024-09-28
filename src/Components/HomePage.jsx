@@ -3,7 +3,7 @@ function HomePage() {
   return (
     <div className="flex h-screen items-center justify-center">
         <div>
-            <img src="/public/images/dices.png" alt="dice-logo" />
+            <img src="/dices.png" alt="dice-logo" />
         </div>
         <div>
             <div className="font-bold text-8xl">Dice Game</div>
