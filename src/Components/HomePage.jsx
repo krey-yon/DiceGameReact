@@ -8,7 +8,7 @@ function HomePage() {
         <div>
             <div className="font-bold text-8xl">Dice Game</div>
             <div className="flex justify-end w-full">
-            <button className="w-52 bg-black text-white rounded-sm" >Play Now</button>
+            <button className="w-52 bg-black text-white rounded-sm pt-2 pb-2" >Play Now</button>
             </div>
         </div>
     </div>
