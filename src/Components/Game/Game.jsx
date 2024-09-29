@@ -19,7 +19,8 @@ const roleDice = () => {
     return
   }
   setErrorr("")
-    setDiceNumber(generateRandomNumber())
+    const newDiceNumber = generateRandomNumber();
+    setDiceNumber(newDiceNumber);
 
 
     if (selectedNumber === diceNumber) {
@@ -30,6 +31,7 @@ const roleDice = () => {
     }
 
     setSelectedNumber(null) 
+    
 }
   const resetScore = () => {
     setScore(0)
